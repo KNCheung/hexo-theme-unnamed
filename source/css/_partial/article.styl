@@ -92,23 +92,21 @@
     margin: 0em 0px;  
     list-style-position: outside;
     list-style-type: disc;
-    margin-left: 1em;
-    /*li:before{*/
-      /*content: "";*/
-      /*width: 0.5em;*/
-      /*height: 0.5em;*/
-      /*border: 0px solid #999;*/
-      /*border-radius: 1em;*/
-      /*background: #aaa;*/
-      /*display: inline-block;*/
-      /*margin-right: 0.4em;*/
-      /*margin-left: 0.4em;*/
-    /*}*/
+    margin-left: 2em;
+    padding-left; 2em;
+    ul{
+      list-style-type: circle;
+      ul{
+          list-style-type: square;
+      }
+    }
   }
   ol{
     margin: 0em 0px;
     list-style-type: lower-roman;
+    list-style-position: outside;
     margin-left: 0em;
+    padding-left: 2em;
   }
   h2, h3{
     margin-top: 10px;
