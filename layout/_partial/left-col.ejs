@@ -96,7 +96,18 @@
 				<%}else{%>
 				<section class="switch-part switch-part4">
 				<%}%>
-					<%=theme.aboutme%>
+                    <p>
+                        <%=theme.aboutme%>
+                    </p>
+                    <%if(theme.aboutmemore){%>
+                        <p align="right">
+                            <%if(theme.excerpt_link) {%>
+                                <a href="<%=theme.aboutmemore%>"><%= theme.excerpt_link %> >></a>
+                            <%}else{%>
+                                <a href="<%=theme.aboutmemore%>">more >></a>
+                            <%}%>
+                        </p>
+                    <%}%>
 				</section>
 				<%}%>
 			</div>
