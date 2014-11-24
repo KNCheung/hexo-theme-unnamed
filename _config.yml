@@ -6,7 +6,7 @@ menu:
 
 # SubNav
 subnav:
-  #github: "#"
+  github: "http://github.com/slooth"
   weibo: "http://weibo.com/bro0"
   #rss: "/atom.xml"
   #facebook: "#"
@@ -18,7 +18,7 @@ subnav:
 
 # Content
 excerpt_link: more
-fancybox: true
+fancybox: false
 
 # Miscellaneous
 
