@@ -6,12 +6,16 @@
 				<img src="<%=theme.avatar%>">
 			</div>
 
+            <!-- No Author & Subtitle -->
+            <% if (0) { %>
 			<hgroup>
 			  <h1 class="header-author"><a href="/"><%=theme.author%></a></h1>
 			</hgroup>
-			<% if (theme.subtitle){ %>
+			<% if (theme.subtitle){ %>           
 			<p class="header-subtitle"><%=theme.subtitle%></p>
 			<%}%>
+            <% } %>
+            <!-- No Author & Subtitle -->
 			<nav class="header-menu">
 				<ul>
 				<% for (var i in theme.menu){ %>
